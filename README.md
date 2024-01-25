@@ -1,1 +1,1 @@
-# List-of-all-countries-and-flags
+# List of all countries and flags
