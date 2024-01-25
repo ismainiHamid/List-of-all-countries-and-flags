@@ -20,7 +20,11 @@ countries
 
 ```
 
-## Use this packege
+## Useing this package
+    - Could use this package for get 'Telephone code'.
+    - Or for getting important informations about any country.
+    - ...
+
 ### Example with ajax
 ```js
 
@@ -52,4 +56,8 @@ $(document).ready(function () {
 });
 
 ```
+
+### See the result after fetching json file with ajax
+
+<img src="img/result.png">
 
