@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <title>Countries</title>
+
+    <style>
+        * {
+            font-size: 12px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="col-12">
+            <h1 class="fw-bold text-center text-uppercase py-4">All world countries</h1>
+
+            <table id="countries" class="table table-hover table-striped text-center border">
+                <thead class="table-light">
+                    <tr>
+                        <th></th>
+                        <th>Name (English)</th>
+                        <th>Name (Francais)</th>
+                        <th>Name (Arabic)</th>
+                        <th>Code_2</th>
+                        <th>Code_3</th>
+                        <th>UN</th>
+                        <th>Telephone code</th>
+                        <th>Continent</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                </tbody>
+
+                <tfoot class="table-light">
+                    <tr>
+                        <th></th>
+                        <th>Name (English)</th>
+                        <th>Name (Francais)</th>
+                        <th>Name (Arabic)</th>
+                        <th>Code_2</th>
+                        <th>Code_3</th>
+                        <th>UN</th>
+                        <th>Telephone code</th>
+                        <th>Continent</th>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $.ajax({
+                type: "Get",
+                url: "countries.json",
+                dataType: "json",
+                success: function (data) {
+                    $.each(data, function (index, country) {
+                        $('#countries tbody').append('<tr>' +
+                            '<td><img src="' + country['flag'] + '" height="20" width="30"></td>' +
+                            '<td>' + country['nameEn'] + '</td>' +
+                            '<td>' + country['nameFr'] + '</td>' +
+                            '<td>' + country['nameAr'] + '</td>' +
+                            '<td>' + country['code'].alpha_2 + '</td>' +
+                            '<td>' + country['code'].alpha_3 + '</td>' +
+                            '<td>' + country['code'].un + '</td>' +
+                            '<td>' + country['telephoneCode'] + '</td>' +
+                            '<td>' + country['continent'] + '</td>' +
+                            '</tr>'
+                        );
+                    });
+                },
+                error: function () {
+                    alert("Error: json file not found !");
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
