@@ -1,17 +1,5 @@
 # List of all countries and flags (JSON)
 
-<p>
-    - Could use this package for get 'Telephone code'.
-    - Or for getting important informations about any country.
-    - ...
-</p>
-    
-```bash
-
-    ![#f03c15]NB : `#f03c15` If you want the run demo you need to add 'Live server' extension
-
-```
-
 ```bash
 
 git clone https://github.com/ismainiHamid/List-of-all-countries-and-flags.git
