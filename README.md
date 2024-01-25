@@ -1,9 +1,8 @@
 # List of all countries and flags (JSON)
-```
-    -**Could use this package for get 'Telephone code'.**
-    -**Or for getting important informations about any country.**
+    Could use this package for get 'Telephone code'.
+    **Or for getting important informations about any country.**
     -**...**
-```
+
 ## Structure of packages in the project
 
 ```bash
