@@ -59,5 +59,7 @@ $(document).ready(function () {
 
 ### See the result after fetching json file with ajax
 
-<img src="img/result.png">
+<div align="center">
+    <img src="img/result.png" with="100%">
+</div>
 
