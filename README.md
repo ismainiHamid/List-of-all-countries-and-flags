@@ -6,9 +6,11 @@
     - ...
 </p>
     
-<p>
-    <span color="red">NB : </span> If you want the run demo you need to add 'Live server' extension
-</p>
+```bash
+
+    ![#f03c15]NB : `#f03c15` If you want the run demo you need to add 'Live server' extension
+
+```
 
 ```bash
 
