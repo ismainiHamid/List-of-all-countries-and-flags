@@ -1,8 +1,14 @@
 # List of all countries and flags (JSON)
+
+<span>
     - Could use this package for get 'Telephone code'.
     - Or for getting important informations about any country.
     - ...
-<span color="red">NB : </span> If you want the run demo you need to add 'Live server' extension
+</span>
+    
+<span>
+    <span color="red">NB : </span> If you want the run demo you need to add 'Live server' extension
+</span>
 
 ## Structure of packages in the project
 
