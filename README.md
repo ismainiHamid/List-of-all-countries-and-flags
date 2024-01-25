@@ -1,5 +1,9 @@
 # List of all countries and flags (JSON)
 
+    - Could use this package for get 'Telephone code'.
+    - Or for getting important informations about any country.
+    - ...
+
 ## Structure of packages in the project
 
 ```bash
@@ -20,12 +24,7 @@ countries
 
 ```
 
-## Useing this package
-    - Could use this package for get 'Telephone code'.
-    - Or for getting important informations about any country.
-    - ...
-
-### Example with ajax
+## Example with ajax
 ```js
 
 $(document).ready(function () {
@@ -57,7 +56,7 @@ $(document).ready(function () {
 
 ```
 
-### See the result after fetching json file with ajax
+## See the result after fetching json file with ajax
 
 <div align="center">
     <img src="demo/img/result.png" with="100%">
