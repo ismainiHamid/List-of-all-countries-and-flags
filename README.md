@@ -60,6 +60,6 @@ $(document).ready(function () {
 ### See the result after fetching json file with ajax
 
 <div align="center">
-    <img src="img/result.png" with="100%">
+    <img src="demo/img/result.png" with="100%">
 </div>
 
