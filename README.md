@@ -64,4 +64,4 @@ $(document).ready(function () {
     <img src="demo/img/result.png" with="100%">
 </div>
 
-#### Happy conding
+#### Happy conding 😊😊😊
